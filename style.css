@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;1,300;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Rubik, sans-serif;
+    background-image: url('https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/620bd6d655f2044afa28bff4_glassmorphism.jpeg');
+    background-size: cover;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(229deg, rgba(2,0,36,1) 0%, rgba(9,68,121,1) 27%, rgba(0,212,255,1) 100%); */
+}
+
+
+h1, p {
+    color: white;
+    text-align: center;
+    margin : 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+
+.form-box{
+    font-family: inherit;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px 30px;
+    min-height: 500px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+label {
+    color: white;
+}
+
+input, select {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+input:focus{
+    outline: 2px solid rgba(40, 128, 179, 0.582);
+}
+
+input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+

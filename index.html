@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This survey does nothing to your life.</p>
+
+    <div class="form-box">
+        <form id="survey-form">
+            <label for="name-label">
+                Name
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </label>
+            <label for="email-label">
+                Email
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </label>
+            <label for="number-label">
+                Lucky Number
+                <input type="number" id="number" placeholder="Enter your lucky number (1-10)" min="1" max="10" required>
+            </label>
+            <label for="dropdown">
+                Select
+                <Select>
+                    <option value="1">1</option>
+                </Select>
+            </label>
+        </form>
+    </div>
+
+</body>
+
+</html>
