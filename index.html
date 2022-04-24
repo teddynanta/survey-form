@@ -15,27 +15,60 @@
 
     <div class="form-box">
         <form id="survey-form">
-            <label for="name-label">
+            <label for="name" id="name-label">
                 Name
                 <input type="text" id="name" placeholder="Enter your name" required>
             </label>
-            <label for="email-label">
+            <label for="email" id="email-label">
                 Email
                 <input type="email" id="email" placeholder="Enter your email" required>
             </label>
-            <label for="number-label">
+            <label for="number" id="number-label">
                 Lucky Number
                 <input type="number" id="number" placeholder="Enter your lucky number (1-10)" min="1" max="10" required>
             </label>
-            <label for="dropdown">
-                Select
-                <Select>
-                    <option value="1">1</option>
+            <label for="gender">
+                Select your gender
+                <Select id="dropdown">
+                    <option name="gender" value="male">Male</option>
+                    <option name="gender" value="2=female">Female</option>
+                    <option name="gender" value="other">Other</option>
                 </Select>
             </label>
+            <span>Age group</span>
+            <label for="u17">
+                <input type="radio" name="age-group" id="u17" value="u17">
+                Under 17 Years Old
+            </label>
+            <label for="17to25">
+                <input type="radio" name="age-group" id="17to25" value="17to25"> 17 - 25 Years Old
+            </label>
+            <label for="25up">
+                <input type="radio" name="age-group" id="25up" value="25up"> Above 25 Years Old
+            </label>
+            <span>Language</span>
+            <label for="english">
+                <input type="checkbox" name="language" value="english" id="english"> English
+            </label>
+            <label for="indonesia">
+                <input type="checkbox" name="language" value="indonesia" id="indonesia"> Indonesia
+            </label>
+            <label for="japanese">
+                <input type="checkbox" name="language" value="japanese" id="japanese"> Japanese
+            </label>
+            <label for="arabic">
+                <input type="checkbox" name="language" value="arabic" id="arabic"> Arabic
+            </label>
+            <label for="textarea" id="textarea">
+                <span>Personal quotes</span>
+                <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+            </label>
+
+            <button type="submit" id="submit">Submit</button>
         </form>
     </div>
 
 </body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 </html>
